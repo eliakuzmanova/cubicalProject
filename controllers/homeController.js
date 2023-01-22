@@ -7,3 +7,7 @@ exports.getHomeView = (req, res) => {
 exports.getAboutView = (req, res) => {
     res.render("about")
 }
+
+exports.getErrorPage = (req, res) => {
+    res.render("404")
+}

@@ -18,6 +18,8 @@ module.exports = (app) => {
     router.get("/create", cubeController.getCubeView);
     router.post("/create", cubeController.postCube)
 
+    router.get("/404", homeController.getErrorPage)
+
     return router
 };
     // TODO...
