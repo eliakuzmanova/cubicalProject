@@ -13,12 +13,17 @@ exports.postCube = (req, res) => {
 }
 
 exports.getDetails = (req, res) => {
-    let cubeId = Number(req.params.id);
+    let cubeId = Number(req.params.cubeId);
 
     if(!cubeId) {
         return res.redirect("/404")
     }
 
-    let cube = database.find(x => x.id === cubeId);
+    let cube = database.cubes.find(x => x.id == cubeId);
 
+    if(!cube) {	
+        return res.redirect("/404")
+    }
+
+    res.render("details", {cube})
 }

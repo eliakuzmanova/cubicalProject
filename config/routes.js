@@ -11,6 +11,7 @@ module.exports = (app) => {
 
     router.get("/", homeController.getHomeView);
 
+    router.get("/details/:cubeId", cubeController.getDetails);
 
     router.get("/about", homeController.getAboutView);
 
