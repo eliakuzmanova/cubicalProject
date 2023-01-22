@@ -10,8 +10,13 @@ const router = Router()
 module.exports = (app) => {
 
     router.get("/", homeController.getHomeView);
+
+
     router.get("/about", homeController.getAboutView);
+
+
     router.get("/create", cubeController.getCubeView);
+    router.post("/create", cubeController.postCube)
 
     return router
 };
