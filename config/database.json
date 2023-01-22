@@ -1,3 +1,25 @@
-[
-    
-]
+{
+  "cubes": [
+    {
+      "id": "1",
+      "name": "Gan356 Air SM",
+      "description": "A simple one",
+      "imageUrl": "https://ae01.alicdn.com/kf/HTB1CSddXRxRMKJjy0Fdq6yifFXa6/Gan-356-Air-SM-3x3-Black-Magic-cube-GAN-Air-SM-Magnetic-3x3x3-Speed-cube-gans.jpg",
+      "difficultyLevel": "3"
+    },
+    {
+      "name": "Magic Cube",
+      "description": "only for people with magical power",
+      "imageUrl": "https://www.amazon.de/FAVNIC-Zauberwürfel-Fluctuation-Angle-Puzzle/dp/B077LVNFTF/ref=asc_df_B077LVNFTF/?tag=&linkCode=df0&hvadid=308852397753&hvpos=&hvnetw=g&hvrand=7489832330899951134&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9042186&hvtargid=pla-562464144660&th=1&ref=&adgrpid=70011657588",
+      "difficultyLevel": "4",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Nice Cube",
+      "description": "Sweat cube, can be eaten",
+      "imageUrl": "https://static.boredpanda.com/blog/wp-content/uploads/2017/03/rubiks-cube-cake-pastry-cedric-grolet-17-58dcf71b65cef__700.jpg",
+      "difficultyLevel": "1"
+    }
+  ]
+}
