@@ -7,6 +7,12 @@ const homeController = require('../controllers/homeController')
 
 const router = Router()
 
-module.exports = router
+module.exports = (app) => {
+
+    router.get("/", homeController.getHomeView);
+    router.get("/about", homeController.getAboutView);
+    
+    return router
+};
     // TODO...
-app.get("/", homeController.getHomeView);
+

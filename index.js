@@ -1,9 +1,6 @@
 const env = process.env.NODE_ENV || 'development';
 
 const config = require('./config/config')[env];
-const cubeController  = require('./controllers/cubeController')
-const homeController = require('./controllers/homeController')
-const router = require("./config/routes")
 
 const app = require('express')();
 
